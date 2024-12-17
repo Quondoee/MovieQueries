@@ -23,9 +23,7 @@ CREATE TABLE Movies (
 );
 
 Step 2: Insert Initial Movie Data
-sql
 
--- Insert initial movie data into the table
 
 INSERT INTO Movies (title, runtime, genre, imdb_score, rating)
 VALUES
@@ -37,9 +35,7 @@ VALUES
     ('Monsters Inc.', 92, 'Animation', 8.1, 'G');
 
 Step 3: Add Additional Movies
-sql
 
--- Add two more movies
 
 INSERT INTO Movies (title, runtime, genre, imdb_score, rating)
 VALUES
@@ -48,9 +44,7 @@ VALUES
 
 1. Find All Movies in the Sci-Fi Genre
 
-sql
-Copy code
--- Find all movies in the Sci-Fi genre
+
 SELECT * FROM Movies
 WHERE genre = 'Sci-Fi';
 
